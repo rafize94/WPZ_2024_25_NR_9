@@ -12,7 +12,7 @@ with open("coco_bez_pl.names", "r") as f:
 layer_names = net.getUnconnectedOutLayersNames()
 cap = cv2.VideoCapture("wideo.mp4")
 
-#Ustawienie właściwości wideo wyjściowego
+#Ustawienie właściwości wideo wyjściowego 
 frame_width = int(cap.get(3))
 frame_height = int(cap.get(4))
 fps = 30
